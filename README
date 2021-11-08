@@ -1,0 +1,6 @@
+tcp80x
+=======
+This is a merger of execfs and tcp80, both written by cinap_lenrek.
+Basically, for each incoming request we look for a dispatch rule and execute
+the command associated with the rule. If no rule was found then we fallback
+to serving static files which should be present in /usr/web.
