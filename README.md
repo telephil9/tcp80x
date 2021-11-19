@@ -1,6 +1,6 @@
 tcp80x
 =======
-tcp80x is an HTTP server with some pseudo-CGI support.
+tcp80x is an HTTP server with some pseudo-CGI support.  
 This is a merger of execfs and tcp80, both written by cinap_lenrek.
 
 Installation:
